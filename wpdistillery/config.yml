@@ -41,7 +41,7 @@ db:
 #################################################################
 
 wpsettings:
-  url: wpdistillery.dev
+  url: 192.168.33.10/wp
   title: Example Title
   description: Example Description
   permalink_structure: "/%postname%/"
@@ -72,29 +72,30 @@ theme:
 
 # plugins to install & activate
 plugins_active:
-  - disable-comments
-  - duplicate-post
-  - enable-media-replace
-  - favicon-by-realfavicongenerator
-  - regenerate-thumbnails
-  - simple-page-ordering
-  - user-switching
+  - rest-api
+#  - disable-comments
+#  - duplicate-post
+#  - enable-media-replace
+#  - favicon-by-realfavicongenerator
+#  - regenerate-thumbnails
+#  - simple-page-ordering
+#  - user-switching
 
 # plugins to install
 plugins_inactive:
   #development
-  - custom-post-type-ui
-  - search-and-replace
-  - capability-manager-enhanced
+#  - custom-post-type-ui
+#  - search-and-replace
+#  - capability-manager-enhanced
   #administration
-  - adminimize
-  - admin-menu-editor
-  - admin-menu-reorder
+#  - adminimize
+#  - admin-menu-editor
+#  - admin-menu-reorder
   # seo
-  - autodescription
+#  - autodescription
   #security/backup
-  - wp-security-audit-log
-  - backwpup
+#  - wp-security-audit-log
+#  - backwpup
 
 # WPDISTILLERY SETUP
 ####################################################################
